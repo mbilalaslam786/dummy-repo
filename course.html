@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Courses</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+ <script src="https://kit.fontawesome.com/7b34209355.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mochiy+Pop+One&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo .png" alt="logo" width="150px"></a>
+        <!-- <h2>Trial</h2> -->
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Our Courses</h1>
+    </section>  
+                <!-- Courses -->
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>These courses are available in our website</p>
+        <div class="row">
+        <div class="crs-col">
+            <h3>Intermediate</h3>
+            <p>we are offering these fews are courses, which some are paid & some are free, which courses are paid these are enclosed with free certificate, which is best opportunity. 
+            </p>
+        </div>
+        <div class="crs-col">
+            <h3>Degree</h3>
+            <p>we are offering these fews are courses, which some are paid & some are free, which courses are paid these are enclosed with free certificate, which is best opportunity. 
+            </p>
+        </div>
+        <div class="crs-col">
+            <h3>Post Graduate</h3>
+            <p>we are offering these fews are courses, which some are paid & some are free, which courses are paid these are enclosed with free certificate, which is best opportunity. </p>
+        </div>
+        </div>
+    </section>
+ <!-----Facilities----->
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Here we described some of our main facilities.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+            <img src="images/3d .jpg" alt="Library" />
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dummy data we add for testing our website, we want check our website properly work or not, before upload we should check it. </p>
+            </div>
+            <div class="facilities-col">
+            <img src="images/group .jpg" alt="ground" />
+            <h3>Largest Playground</h3>
+            <p>Lorem ipsum dummy data we add for testing our website, we want check our website properly work or not, before upload we should check it. </p>
+            </div>
+            
+            <div class="facilities-col">
+            <img src="images/caffe .jpg" alt="caffe" />
+            <h3>Cafeteria</h3>
+            <p>Lorem ipsum dummy data we add for testing our website, we want check our website properly work or not, before upload we should check it. </p>
+            </div>
+
+        </div>
+    </section>
+
+
+ <!----- footer ----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dummy data we add for testing our website, we want check our website properly <br>work or not, before upload we should check it. </p> 
+        <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        </div>
+        <hr>
+        <p>Copyrights &copy; Reserved: 2022</p>
+    </section>
+              <!-- Javascript for Toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+        navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+        navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
+    

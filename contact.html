@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css" type="text/css">
+ <script src="https://kit.fontawesome.com/7b34209355.js" crossorigin="anonymous"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mochiy+Pop+One&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo .png" alt="logo" width="150px"></a>
+        <!-- <h2>Trial</h2> -->
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="course.html">Course</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <!-- <i class="fa fa-bars" onclick="showMenu()"></i> -->
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Contact Us</h1>
+    </section>
+        <!--------- Contact us --------->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13274.848946785683!2d73.12193961413277!3d33.71639433814892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfc04b8cff92e7%3A0x4fc0ece5b8b9d8fb!2sLAKE%20VIEW%20PARK%2C%20Islamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1644315097887!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>X,Y,Z Road, A,B,C Building xni9 </h5>
+                        <p>Islamabad, Pakistan</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-mobile"></i>
+                    <span>
+                        <h5>+92 341 5930866 </h5>
+                        <p>Monday to Saturday | 10am to 6pm</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>info@gmail.com </h5>
+                        <p>Email Us for Inquiry</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="email" name="email" placeholder="Enter Email Address" required>
+                    <input type="text" name="subject" placeholder="Enter Subject" required>
+                    <textarea rows="8" name="message" placeholder="Write Message here..." required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+ <!----- footer ----->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dummy data we add for testing our website, we want check our website properly <br>work or not, before upload we should check it. </p> 
+        <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        </div>
+        <hr>
+        <p>Copyrights &copy; Reserved: 2022</p>
+    </section>
+              <!-- Javascript for Toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+        navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+        navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
+    
